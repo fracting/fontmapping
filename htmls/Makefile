@@ -36,8 +36,8 @@ mt-extra-mapping.new.html: ../../script/csv2html.py ../mt-extra/mt-extra-mapping
 ../wingdings/wingdings-mapping.new.csv: ../../script/csv2csv.py ../wingdings/wingdings-mapping.csv
 	../../script/csv2csv.py ../wingdings/wingdings-mapping.csv ../wingdings/wingdings-mapping.new.csv
 
-../windings2/windings2-mapping.new.csv: ../../script/csv2csv.py ../windings2/windings2-mapping.csv
-	../../script/csv2csv.py ../windings2/windings2-mapping.csv ../windings2/windings2-mapping.new.csv
+../wingdings2/wingdings2-mapping.new.csv: ../../script/csv2csv.py ../wingdings2/wingdings2-mapping.csv
+	../../script/csv2csv.py ../wingdings2/wingdings2-mapping.csv ../wingdings2/wingdings2-mapping.new.csv
 
 ../wingdings3/wingdings3-mapping.new.csv: ../../script/csv2csv.py ../wingdings3/wingdings3-mapping.csv
 	../../script/csv2csv.py ../wingdings3/wingdings3-mapping.csv ../wingdings3/wingdings3-mapping.new.csv
